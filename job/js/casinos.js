@@ -82,22 +82,9 @@ const CASINOS = [
         ],
         "hands": null,
         "denoms": [
-          0.25,
-          0.5,
           1
         ],
         "banks": [
-          {
-            "denoms": [
-              0.25,
-              0.5,
-              1
-            ],
-            "perPoint": null,
-            "location": "just outside poker room (with prog. meter on top)",
-            "play": "1 Play",
-            "machines": "1 Machine"
-          },
           {
             "denoms": [
               1
@@ -396,25 +383,6 @@ const CASINOS = [
           },
           {
             "denoms": [
-              0.25
-            ],
-            "perPoint": null,
-            "location": "just outside poker room (with prog. meter on top)",
-            "play": "1 Play",
-            "machines": "1 Machine"
-          },
-          {
-            "denoms": [
-              0.25,
-              0.5
-            ],
-            "perPoint": null,
-            "location": "just outside poker room (with prog. meter on top)",
-            "play": "1 Play",
-            "machines": "1 Machine"
-          },
-          {
-            "denoms": [
               0.25,
               0.5,
               1
@@ -689,6 +657,55 @@ const CASINOS = [
             "location": "outside high limit room",
             "play": "50 Play",
             "machines": "1 Slant-top"
+          }
+        ]
+      },
+      {
+        "name": "Triple Double Bonus",
+        "variant": "",
+        "ret": 98.15,
+        "payouts": [
+          1,
+          1,
+          2,
+          4,
+          6,
+          9,
+          50,
+          80,
+          160,
+          400,
+          800,
+          50,
+          800
+        ],
+        "hands": [
+          "Jacks or Better",
+          "Two Pair",
+          "3 of a Kind",
+          "Straight",
+          "Flush",
+          "Full House",
+          "4 5s–Ks",
+          "4 2s–4s",
+          "4 Aces",
+          "4 2s–4s + A/2/3/4",
+          "4 Aces + 2/3/4",
+          "Straight Flush",
+          "Royal Flush"
+        ],
+        "denoms": [
+          1
+        ],
+        "banks": [
+          {
+            "denoms": [
+              1
+            ],
+            "perPoint": null,
+            "location": "several throughout",
+            "play": "1 Play",
+            "machines": ""
           }
         ]
       }
